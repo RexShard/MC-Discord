@@ -4,7 +4,7 @@ const bot = new Discord.Client();
 var prefix = ("*")
 
 bot.on('ready', function() {
-    bot.user.setGame("Command: *help");
+    bot.user.setGame("Minecraft");
     console.log("Bot Connected");
 });
 
